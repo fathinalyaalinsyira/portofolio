@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Fathin</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffe4ec, #fff0f5);
+      text-align: center;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ff69b4;
+    }
+
+    h2 {
+      color: #ff1493;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 15px auto;
+      width: 70%;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    /* PROFILE */
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffc0cb;
+      margin-top: 10px;
+    }
+
+    /* SKILL BAR */
+    .skill {
+      text-align: left;
+      margin: 10px 0;
+    }
+
+    .bar {
+      background: #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 10px;
+      background: #ff69b4;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    /* CONTACT */
+    .contact input,
+    .contact textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .contact button {
+      padding: 10px 20px;
+      border: none;
+      background: #ff69b4;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background: #ff1493;
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>FATHIN AL'YA AL'INSYIRAH</h1>
+    <p><b>NIM : D0225020</b></p>
+
+    <!-- FOTO -->
+    <img src="foto-kamu.jpg" class="profile-img">
+
+    <!-- ABOUT -->
+    <h2>Tentang Saya</h2>
+    <div class="card">
+      Halo! Saya adalah mahasiswa yang memiliki minat di bidang teknologi dan desain web.
+      Saya senang membuat tampilan website yang menarik, aesthetic, dan lucu.
+    </div>
+
+    <!-- SKILL -->
+    <h2>Keahlian</h2>
+    <div class="card">
+
+      <div class="skill">UI/UX Design</div>
+      <div class="bar">
+        <div class="fill" style="width:80%"></div>
+      </div>
+
+      <div class="skill">HTML & CSS</div>
+      <div class="bar">
+        <div class="fill" style="width:75%"></div>
+      </div>
+
+      <div class="skill">JavaScript</div>
+      <div class="bar">
+        <div class="fill" style="width:50%"></div>
+      </div>
+
+    </div>
+
+    <!-- KENANGAN SMK -->
+    <h2>Kebersamaan Bersama Teman SMK</h2>
+    <div class="card">
+      <p>Beberapa momen kebersamaan saya bersama teman-teman saat di SMK 💖</p>
+
+      <div class="gallery">
+        <img src="PORTOFOLIOFATHIN/foto.jpg" height="100" width="100">
+        <img src="foto2.jpg">
+        <img src="foto3.jpg">
+        <img src="foto4.jpg">
+      </div>
+    </div>
+
+    <!-- PROJECT -->
+    <h2>Project</h2>
+
+    <div class="card">
+      <h3>🌐 Website Portfolio</h3>
+      <p>Membuat website portfolio pribadi dengan desain modern dan menarik.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛍️ Landing Page</h3>
+      <p>Membuat landing page produk dengan tampilan clean dan eye-catching.</p>
+    </div>
+
+    <!-- CONTACT -->
+    <h2>Contact Me</h2>
+    <div class="card contact">
+      <input type="text" placeholder="Nama">
+      <br>
+      <textarea placeholder="Pesan"></textarea>
+      <br>
+      <button>Kirim</button>
+    </div>
+
+    <div class="footer">
+      © 2026 Fathin Al'ya Al'insyirah
+    </div>
+
+  </div>
+
+</body>
+
+</html>
