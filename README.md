@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Fathin</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffe4ec, #fff0f5);
+      text-align: center;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ff69b4;
+    }
+
+    h2 {
+      color: #ff1493;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 15px auto;
+      width: 70%;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    /* PROFILE */
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffc0cb;
+      margin-top: 10px;
+    }
+
+    /* SKILL BAR */
+    .skill {
+      text-align: left;
+      margin: 10px 0;
+    }
+
+    .bar {
+      background: #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 10px;
+      background: #ff69b4;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    /* CONTACT */
+    .contact input,
+    .contact textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .contact button {
+      padding: 10px 20px;
+      border: none;
+      background: #ff69b4;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background: #ff1493;
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>FATHIN AL'YA AL'INSYIRAH</h1>
+    <p><b>NIM : D0225020</b></p>
+
+    <!-- FOTO -->
+    <img src="PORTOFOLIOFATHIN/foto4.png" class="profile-img">
+
+    <!-- ABOUT -->
+    <h2>Tentang Saya</h2>
+    <div class="card">
+      Halo! Saya adalah mahasiswa yang memiliki minat di bidang teknologi dan desain web.
+      Saya senang membuat tampilan website yang menarik, aesthetic, dan lucu.
+    </div>
+
+    <!-- SKILL -->
+    <h2>Keahlian</h2>
+    <div class="card">
+
+      <div class="skill">Fotografi</div>
+      <div class="bar">
+        <div class="fill" style="width:80%"></div>
+      </div>
+
+      <div class="skill">Videografi</div>
+      <div class="bar">
+        <div class="fill" style="width:75%"></div>
+      </div>
+
+      <div class="skill">Design Grafis</div>
+      <div class="bar">
+        <div class="fill" style="width:50%"></div>
+      </div>
+
+    </div>
+
+    <!-- KENANGAN SMK -->
+    <h2>Kebersamaan Bersama Teman SMK</h2>
+    <div class="card">
+      <p>Beberapa momen kebersamaan saya bersama teman-teman saat di SMK 💖</p>
+
+      <div class="gallery">
+        <img src="PORTOFOLIOFATHIN/foto.jpg" alt="foto ke-1">
+        <img src="PORTOFOLIOFATHIN/foto1.jpg" alt="foto ke2">
+        <img src="PORTOFOLIOFATHIN/foto2.jpg" alt="foto ke-3">
+        <img src="PORTOFOLIOFATHIN/foto3.jpg" alt="foto ke-4">
+      </div>
+    </div>
+
+    
+    <div class="card">
+      <h3>🎀Kesan selama sekolah🎀</h3>
+      <p>Di sini, aku belajar banyak hal… bukan cuma pelajaran, tapi juga arti kebersamaan 🥺💗
+        Ada tawa, ada cerita, ada momen random yang tiba-tiba jadi kenangan paling berharga</p>
+    </div>
+
+    <div class="card">
+      <h3>🌸Pesan selama sekolah🌸</h3>
+      <p>Semoga kita semua bahagia di jalan masing-masing 🌈
+        Dan kenangan ini tetap jadi “rumah kecil” yang selalu bisa kita ingat kapan pun 💌</p>
+    </div>
+
+    <!-- CONTACT -->
+ <h2>Contact Me</h2>
+<div class="card contact">
+  <p><strong>Instagram : </strong> alinsyrhh</p>
+  <p><strong>Gmail : </strong> fatxxxxx@gmail.com</p>
+</div>
+
+    <div class="footer">
+      © 2026 Fathin Al'ya Al'insyirah
+    </div>
+
+  </div>
+
+</body>
+
+</html>
